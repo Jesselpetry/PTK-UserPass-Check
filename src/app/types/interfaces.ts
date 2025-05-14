@@ -26,10 +26,6 @@ export interface AnalyticsSectionProps {
   femaleStudents: number;
 }
 
-export interface InstructionsSectionProps {
-  // Can add props if needed in the future
-}
-
 export interface FooterProps {
   currentYear: number;
 }
