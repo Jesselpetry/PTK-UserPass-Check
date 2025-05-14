@@ -1,9 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-interface InstructionsSectionProps {}
 
-const InstructionsSection = ({}: InstructionsSectionProps) => {
+const InstructionsSection = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
