@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { InstructionsSectionProps } from "../types/interfaces";
+interface InstructionsSectionProps {}
 
 const InstructionsSection = ({}: InstructionsSectionProps) => {
   return (
